@@ -26,7 +26,6 @@
   "homepage": "https://github.com/Yirou/stop-word#readme",
   "dependencies": {
     "fs-readdir-recursive": "^1.1.0",
-    "mocha": "^6.1.4",
-    "save": "^2.3.3"
+    "mocha": "^6.1.4"
   }
 }
