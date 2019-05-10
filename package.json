@@ -1,5 +1,5 @@
 {
-  "name": "stop-word",
+  "name": "stopwords",
   "version": "1.0.0",
   "description": "Stop words for many language",
   "main": "index.js",
