@@ -1,0 +1,30 @@
+{
+  "name": "stop-word",
+  "version": "1.0.0",
+  "description": "Stop words for many language",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yirou/stop-word.git"
+  },
+  "keywords": [
+    "stop words",
+    "stopwords"
+  ],
+  "author": "boyirou@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yirou/stop-word/issues"
+  },
+  "homepage": "https://github.com/Yirou/stop-word#readme",
+  "dependencies": {
+    "fs-readdir-recursive": "^1.1.0"
+  }
+}
