@@ -1,1 +1,1 @@
-module.exports=require('./lib/stopword');
+module.exports=require('./lib/stopwords');
