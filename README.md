@@ -4,7 +4,7 @@ A collection of stopwords for many language
 npm insatll n-stopwords
 
 // Node
-const stopwords=require('n-stopwords');
+const stopwords=require('n-stopwords')([]);
 stopwords.isStopWord(your-word);
 
 stopwords.getStopWords(['fr']);//return french stopwords
