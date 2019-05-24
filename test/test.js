@@ -1,5 +1,5 @@
 var assert = require('assert');
-var stopwords=require('../lib/stopword');
+var stopwords=require('../lib/stopwords')();
 
 
 describe('isStopWord', function() {
