@@ -1,6 +1,6 @@
 {
   "name": "n-stopwords",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Stop words for many language",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test":  "mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
