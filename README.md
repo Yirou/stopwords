@@ -7,6 +7,7 @@ npm insatll n-stopwords
 const stopwords=require('n-stopwords')([]); 
 or
 const stopwords=require('n-stopwords')(['fr','en']); 
+
 stopwords.isStopWord(your-word);
 
 stopwords.getStopWords(['fr']);//return french stopwords
