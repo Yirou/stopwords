@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yirou/stop-word.git"
+    "url": "git+https://github.com/Yirou/stopwords.git"
   },
   "keywords": [
     "stop words",
@@ -21,11 +21,11 @@
   "author": "boyirou@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Yirou/stop-word/issues"
+    "url": "https://github.com/Yirou/stopwords/issues"
   },
-  "homepage": "https://github.com/Yirou/stop-word#readme",
+  "homepage": "https://github.com/Yirou/stopwords#readme",
   "dependencies": {
-    "fs-readdir-recursive": "^1.1.0",
-    "mocha": "^6.1.4"
+    "fs-readdir-recursive": "~1.1.0",
+    "mocha": "~6.1.4"
   }
 }
