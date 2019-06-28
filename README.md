@@ -1,5 +1,18 @@
 # stopwords
-A collection of stopwords for many language
+A collection of stopwords for many languages
+
+<h3>Supported languages</h3>
+<ul>
+<li>
+French
+</li>
+<li>
+English
+</li>
+<li>
+Italian
+</li>
+</ul>
 <h3> Usage</h3>
 npm install n-stopwords
 <pre>
