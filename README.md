@@ -1,7 +1,7 @@
 # stopwords
 A collection of stopwords for many language
 <h3> Usage</h3>
-npm insatll n-stopwords
+npm install n-stopwords
 <pre>
 <code>
 // Node
