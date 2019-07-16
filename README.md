@@ -38,11 +38,11 @@ stopwords.getStopWords();
 You can append new words as stopwords
 <pre>
 <code>
-stopwords.append(word);
+stopwords.include(word);
 //or
-stopwords.append([{file:file1,encoding:encoding}];
+stopwords.include([{file:file1,encoding:encoding}];
 //or
-stopwords.append(['et','puis',voilà']);
+stopwords.include(['et','puis',voilà']);
 </code>
 </pre>
 words can be array of new files or array of stopwords or an stopword <br>
