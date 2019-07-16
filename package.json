@@ -1,7 +1,7 @@
 {
   "name": "n-stopwords",
-  "version": "1.0.4",
-  "description": "Stop words for many language",
+  "version": "1.0.6",
+  "description": "Stop words for many languages",
   "main": "index.js",
   "directories": {
     "lib": "lib",
