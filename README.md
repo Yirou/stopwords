@@ -40,7 +40,7 @@ You can append new words as stopwords
 <code>
 stopwords.include(word);
 //or
-stopwords.include([{file:file1,encoding:encoding}];
+stopwords.include([{file:pathOfFile,encoding:encoding,separator:'\n'}];
 //or
 stopwords.include(['et','puis',voilà']);
 </code>
