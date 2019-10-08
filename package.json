@@ -1,31 +1,32 @@
 {
-  "name": "n-stopwords",
-  "version": "1.0.6",
-  "description": "Stop words for many languages",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yirou/stopwords.git"
-  },
-  "keywords": [
-    "stop words",
-    "stopwords"
-  ],
-  "author": "boyirou@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Yirou/stopwords/issues"
-  },
-  "homepage": "https://github.com/Yirou/stopwords#readme",
-  "dependencies": {
-    "fs-readdir-recursive": "~1.1.0",
-    "mocha": "~6.1.4"
-  }
+    "name": "n-stopwords",
+    "version": "1.0.7",
+    "description": "Stop words for many languages",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yirou/stopwords.git"
+    },
+    "keywords": [
+        "stop words",
+        "stopwords",
+        "language"
+    ],
+    "author": "boyirou@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Yirou/stopwords/issues"
+    },
+    "homepage": "https://github.com/Yirou/stopwords#readme",
+    "dependencies": {
+        "fs-readdir-recursive": "~1.1.0",
+        "mocha": "~6.1.4"
+    }
 }

@@ -13,46 +13,46 @@ English
 Italian
 </li>
 </ul>
-<h3> Usage</h3>
+
+## Installation
 npm install n-stopwords
-<pre>
-<code>
+
+#Usager
+```javascript
 // Node
-//<strong>Initialize</strong>
+//Initialize
 const stopwords=require('n-stopwords')(); 
 
-//<strong>Set stopwords language</strong>
+//Set stopwords language
 const stopwords=require('n-stopwords')(['fr','en']);
-###################################################
-//<strong>Check if your word is an stopword</strong>
+
+//Check if your word is an stopword
 stopwords.isStopWord(your-word);
 
-//<strong>Return french stopwords</strong>
+//Return french stopwords
 stopwords.getStopWords(['fr']);
 
-//<strong>Return all stopwords</strong>
+//Return all stopwords
 stopwords.getStopWords();
-</code>
-</pre>
-<strong>Include custom words</strong><br>
+```
+## Include your custom words
 You can append new words as stopwords
-<pre>
-<code>
+
+```javascript
 stopwords.include(word);
 //or
 stopwords.include([{file:pathOfFile,encoding:encoding,separator:'\n'}];
 //or
 stopwords.include(['et','puis',voilà']);
-</code>
-</pre>
-words can be array of new files or array of stopwords or an stopword <br>
-<strong>Exclude custom words</strong><br>
-You can exclude words in stopwords
-<pre>
-<code>
+```
+words can be array of new files, array of stopwords or an stopword 
+
+# Exclude custom words
+
+You can also exclude words in stopwords if you don't need that one or many words appear as stopwords
+```javascript
 stopwords.exclude(words);
-</code>
-</pre>
-words can be array of files or array of stopwords or an stopword <br>
-<br>
+```
+words can be array of files, array of stopwords or an stopword 
+
 
