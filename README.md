@@ -15,7 +15,7 @@ Italian
 </ul>
 
 ## Installation
-npm install n-stopwords
+$ npm install n-stopwords
 
 #Usager
 ```javascript
@@ -47,7 +47,7 @@ stopwords.include(['et','puis',voilà']);
 ```
 words can be array of new files, array of stopwords or an stopword 
 
-# Exclude custom words
+## Exclude custom words
 
 You can also exclude words in stopwords if you don't need that one or many words appear as stopwords
 ```javascript
