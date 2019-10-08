@@ -4,13 +4,19 @@ A collection of stopwords for many languages
 <h3>Supported languages</h3>
 <ul>
 <li>
-French
-</li>
-<li>
 English
 </li>
 <li>
+French
+</li>
+<li>
+German
+</li>
+<li>
 Italian
+</li>
+<li>
+Russian
 </li>
 </ul>
 
