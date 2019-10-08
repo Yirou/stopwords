@@ -24,7 +24,7 @@ Russian
 ```
 $ npm install n-stopwords
 ```
-#Usager
+# Usager
 ```javascript
 // Node
 //Initialize
