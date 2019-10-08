@@ -15,8 +15,9 @@ Italian
 </ul>
 
 ## Installation
+```
 $ npm install n-stopwords
-
+```
 #Usager
 ```javascript
 // Node
