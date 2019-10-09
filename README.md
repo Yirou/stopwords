@@ -27,11 +27,11 @@ $ npm install n-stopwords
 # Usager
 ```javascript
 // Node
-//Initialize
+//Initialize with all languages
 const stopwords=require('n-stopwords')(); 
 
-//Set stopwords language
-const stopwords=require('n-stopwords')(['fr','en']);
+//Or set stopwords language
+const stopwords=require('n-stopwords')(['en','fr','de','it','ru']);
 
 //Check if your word is an stopword
 stopwords.isStopWord(your-word);
@@ -46,11 +46,11 @@ stopwords.getStopWords();
 You can append new words as stopwords
 
 ```javascript
-stopwords.include(word);
+stopwords.add(word);
 //or
-stopwords.include([{file:pathOfFile,encoding:encoding,separator:'\n'}];
+stopwords.add([{file:pathOfFile,encoding:encoding,separator:'\n'}];
 //or
-stopwords.include(['et','puis','voilà']);
+stopwords.add(['et','puis','voilà']);
 
 ```
 words can be array of new files, array of stopwords or an stopword 
@@ -59,7 +59,7 @@ words can be array of new files, array of stopwords or an stopword
 
 You can also exclude words in stopwords if you don't need that one or many words appear as stopwords
 ```javascript
-stopwords.exclude(words);
+stopwords.remove(words);
 ```
 words can be array of files, array of stopwords or an stopword 
 
