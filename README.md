@@ -24,7 +24,7 @@ Russian
 ```
 $ npm install n-stopwords
 ```
-#Usager
+# Usager
 ```javascript
 // Node
 //Initialize
@@ -42,7 +42,7 @@ stopwords.getStopWords(['fr']);
 //Return all stopwords
 stopwords.getStopWords();
 ```
-## Include your custom words
+## Append your custom words
 You can append new words as stopwords
 
 ```javascript
@@ -50,7 +50,8 @@ stopwords.include(word);
 //or
 stopwords.include([{file:pathOfFile,encoding:encoding,separator:'\n'}];
 //or
-stopwords.include(['et','puis',voilà']);
+stopwords.include(['et','puis','voilà']);
+
 ```
 words can be array of new files, array of stopwords or an stopword 
 
