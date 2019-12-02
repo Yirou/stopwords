@@ -18,20 +18,26 @@ Italian
 <li>
 Russian
 </li>
+<li>
+Spanish
+</li>
+<li>
+Yoruba
+</li>
 </ul>
 
 ## Installation
 ```
 $ npm install n-stopwords
 ```
-# Usager
+## Usage
 ```javascript
 // Node
 //Initialize with all languages
 const stopwords=require('n-stopwords')(); 
 
 //Or set stopwords language
-const stopwords=require('n-stopwords')(['en','fr','de','it','ru']);
+const stopwords=require('n-stopwords')(['en','fr','de','it','ru','es','yo']);
 
 //Check if your word is an stopword
 stopwords.isStopWord(your-word);
