@@ -47,6 +47,12 @@ stopwords.getStopWords(['fr']);
 
 //Return all stopwords
 stopwords.getStopWords();
+
+//Remove stopwords from text
+french stopwords
+let result=stopwords.cleanText('Et puis voilà Newmips');
+expected 
+result=[puis Newmips]
 ```
 ## Append your custom words
 You can append new words as stopwords
