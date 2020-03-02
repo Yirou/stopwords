@@ -13,7 +13,15 @@ describe('isStopWord', function() {
 describe('Get stopwords files', function() {
   describe('#It should return Object', function() {
     it('should return french stopwords if fr is set as lang or should return all stopwords', function() {
-      assert.equal(Object.keys(stopwords.getStopWords('fr')).indexOf('fr')>=0, true);
+      assert.equal(stopwords.getStopWords('fr')[0].lang, 'fr');
+    });
+  });
+});
+
+describe('Clean stopwords from text', function() {
+  describe('#It should return text', function() {
+    it('should return text without stopword', function() {
+      assert.equal(stopwords.cleanText('et puis voilà'), 'puis');
     });
   });
 });
