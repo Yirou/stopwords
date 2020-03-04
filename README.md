@@ -36,7 +36,7 @@ $ npm install n-stopwords
 //Initialize with all languages
 const stopwords=require('n-stopwords')(); 
 
-//Or set stopwords language
+//Or set stopwords languages
 const stopwords=require('n-stopwords')(['en','fr','de','it','ru','es','yo']);
 
 //Check if your word is an stopword
@@ -49,7 +49,7 @@ stopwords.getStopWords(['fr']);
 stopwords.getStopWords();
 
 //Remove stopwords from text
-//french stopwords
+//'Et' and 'voilà' are stopwords
 let result=stopwords.cleanText('Et puis voilà');
 //expected 
 result='puis'
