@@ -2,29 +2,17 @@
 A collection of stopwords for many languages
 
 <h3>Supported languages</h3>
-<ul>
-<li>
-English
-</li>
-<li>
-French
-</li>
-<li>
-German
-</li>
-<li>
-Italian
-</li>
-<li>
-Russian
-</li>
-<li>
-Spanish
-</li>
-<li>
-Yoruba
-</li>
-</ul>
+
+| Language | Code |
+| --- | --- |
+| Chinese   |   zh   |
+| English   |   en   |
+| French    |   fr   |
+| German    |   de   |
+| Italian   |   it   |
+| Russian   |   ru   |
+| Spanish   |   es   |
+| Yoruba    |   yo   |
 
 ## Installation
 ```
@@ -37,7 +25,7 @@ $ npm install n-stopwords
 const stopwords=require('n-stopwords')(); 
 
 //Or set stopwords languages
-const stopwords=require('n-stopwords')(['en','fr','de','it','ru','es','yo']);
+const stopwords=require('n-stopwords')(['fr','en','es','yo']);
 
 //Check if your word is an stopword
 stopwords.isStopWord(your-word);
@@ -49,7 +37,7 @@ stopwords.getStopWords(['fr']);
 stopwords.getStopWords();
 
 //Remove stopwords from text
-//'Et' and 'voilà' are stopwords
+//for this example 'Et' and 'voilà' are stopwords
 let result=stopwords.cleanText('Et puis voilà');
 //expected 
 result='puis'
