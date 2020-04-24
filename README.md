@@ -5,6 +5,7 @@ A collection of stopwords for many languages
 
 | Language | Code |
 | --- | --- |
+| Arabic    |   ar   |
 | Chinese   |   zh   |
 | English   |   en   |
 | French    |   fr   |
