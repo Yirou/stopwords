@@ -17,7 +17,7 @@ A collection of stopwords for many languages
 
 ## Installation
 ```
-$ npm install n-stopwords
+$ npm i n-stopwords
 ```
 ## Usage
 ```javascript
